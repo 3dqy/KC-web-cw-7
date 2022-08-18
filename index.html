@@ -7,16 +7,18 @@
       href="https://cdn-icons-png.flaticon.com/512/4087/4087669.png"
     />
     <title>مؤشر وزن الجسم</title>
-    <script defer src="./script.js"></script>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div class="container">
-      <h2>!اضغط علي</h2>
+      <h1 style="font-size: 25px;color:rgb(7, 138, 138)">JAVASCRIPT IS THE BEST</h1>
+      <h2 style="margin-top: -30px;" onmouseover="alert(Status(BMI(80,1.8)))">!اضغط علي</h2>
       <section>
-        <input id="weight" type="number" placeholder="الوزن بالكيلوجرام" />
+        <input style="margin-top: -30px;" id="weight" type="number" placeholder="الوزن بالكيلوجرام" />
         <input id="height" type="number" placeholder="الطول بالمتر" />
-        <div id="result"></div>
-        <button>احسب</button>
+        <div id="result">
+        <button onclick="calculate()">احسب</button>
+        </div>
       </section>
     </div>
   </body>
